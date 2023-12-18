@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/contactos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="imagenes/50992.jpg" alt="neocenter_computador" width="200">
+        </div>
+        <div class="redes-sociales">
+            <span><i class="fa-brands fa-facebook fa-2x"></i></span>
+            <span><i class="fa-brands fa-instagram fa-2x"></i></span>
+            <span><i class="fa-brands fa-x-twitter fa-2x"></i></span>
+            <span><i class="fa-brands fa-whatsapp fa-2x"></i></span>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="flex-menu">
+            <li class="flex-menu-item"> <a href="index.html">Inicio</a></li>
+            <li class="flex-menu-item"> <a href="productos.html">Productos</a></li>
+            <li class="flex-menu-item"> <a href="servicios.html">Servicios</a></li>
+            <li class="flex-menu-item"> <a href="#">Contactos</a></li>
+        </ul>
+    </nav>
+
+<div>
+    <div class="titulo">
+        <h3>FORMULARIO DE DATOS</h3>
+    </div>
+    
+    <form class="formulario" method="get">
+        <label for="apellido">APELLIDOS:</label>
+        <input type="text" name="apellido" placeholder="Sus Apellidos aqui" value="" id="apellido" required>
+        <br>
+        <label for="">NOMBRES:</label>
+        <input type="text" name="nombres" placeholder="Sus Nombres aqui" value="" id="nombre" required>
+        <br>
+        <label for="">EMAIL:</label>
+        <input type="email">
+        <br>
+        <label for="">EDAD:</label>
+        <input type="number" >
+        <br>
+        <label for="">FECHA DE NACIMIENTO:</label>
+        <input type="date" required>
+        <br>
+        <label for="">HORA DE INSCRIPCIÓN</label>
+        <input type="time">
+        <br>
+        <label for="">SEXO:</label>
+        <input type="radio" name="" id="">Masculino
+        <input type="radio" name="" id="">Femenino
+        <br>
+        <br>
+        <label for="">DEPORTES:</label>
+        <br>
+        <input type="checkbox">Futbol
+        <input type="checkbox">Billar
+        <input type="checkbox">Ecuavoley
+        <br>
+        <br>
+        <label for="">CURSO</label>
+        <select name="" id="" required>
+            <option value="">Seleccione una opción</option >
+            <option value="">CSS</option>
+            <option value="">JAVASCRIPT</option>
+            <option value="">HTML</option>
+        </select>
+        <br>
+        <label for="">Cuentame algo sobre ti</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+    <footer>
+        <span>Email: info@neocenter.com</span>
+        <span>Telefono: 0958831743</span>
+        <span>Direccion: 10 de Agosto</span>
+        <span>Horario: 08:00 - 18:00</span>
+    </footer>
+
+</body>
+</html>
