@@ -100,9 +100,15 @@ footer span{
     margin-right: 20px;
 }
 
+/*Diseño responsivo*/
 @media only screen and (max-width: 1024px) {
     body {
         width: 80%;
+    }
+
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .redes-sociales {
@@ -111,11 +117,25 @@ footer span{
         margin-top: 10px;
     }
 
-    .flex-menu {
-        flex-direction: row;
-        justify-content: center;
+    nav{
+        height: 50%;
     }
 
+    nav .flex-menu{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .flex-menu {
+        display: flex;
+        justify-content: end;
+        bottom: 10px;
+        padding: 15px;
+        min-width: 250px;
+        flex-wrap: wrap;
+    }
+    
     .flex-menu .flex-menu-item {
         padding: 10px;
     }
@@ -130,16 +150,36 @@ footer span{
         width: 80%;
     }
 
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .redes-sociales {
         left: 0;
         text-align: center;
         margin-top: 10px;
     }
 
-    .flex-menu {
-        flex-direction: row;
-        justify-content: center;
+    nav{
+        height: 50%;
     }
+
+    nav .flex-menu{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .flex-menu {
+        display: flex;
+        justify-content: end;
+        bottom: 10px;
+        padding: 15px;
+        min-width: 250px;
+        flex-wrap: wrap;
+    }
+    
 
     .flex-menu .flex-menu-item {
         padding: 10px;
@@ -155,17 +195,36 @@ footer span{
         width: 80%;
     }
 
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .redes-sociales {
         left: 0;
         text-align: center;
         margin-top: 10px;
     }
 
-    .flex-menu {
-        flex-direction: row;
-        justify-content: center;
+    nav{
+        height: 50%;
     }
 
+    nav .flex-menu{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .flex-menu {
+        display: flex;
+        justify-content: end;
+        bottom: 10px;
+        padding: 15px;
+        min-width: 250px;
+        flex-wrap: wrap;
+    }
+    
     .flex-menu .flex-menu-item {
         padding: 10px;
     }
@@ -180,17 +239,36 @@ footer span{
         width: 80%;
     }
 
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .redes-sociales {
         left: 0;
         text-align: center;
         margin-top: 10px;
     }
 
-    .flex-menu {
-        flex-direction: row;
-        justify-content: center;
+    nav{
+        height: 50%;
     }
 
+    nav .flex-menu{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .flex-menu {
+        display: flex;
+        justify-content: end;
+        bottom: 10px;
+        padding: 15px;
+        min-width: 250px;
+        flex-wrap: wrap;
+    }
+    
     .flex-menu .flex-menu-item {
         padding: 10px;
     }
@@ -205,20 +283,41 @@ footer span{
         width: 80%;
     }
 
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .redes-sociales {
         left: 0;
         text-align: center;
         margin-top: 10px;
     }
 
-    .flex-menu {
-        flex-direction: row;
-        justify-content: center;
+    nav{
+        height: 50%;
     }
+
+    nav .flex-menu{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .flex-menu {
+        display: flex;
+        justify-content: end;
+        bottom: 10px;
+        padding: 15px;
+        min-width: 250px;
+        flex-wrap: wrap;
+    }
+    
 
     .flex-menu .flex-menu-item {
         padding: 10px;
     }
+
 
     table, th, td {
         font-size: 14px;
